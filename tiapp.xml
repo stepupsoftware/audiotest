@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">M7O8DqddkyOMVdyQeSOtMf0kxMdzzq1s</property>
+    <property name="acs-oauth-key-production" type="string">DR5TePdfnzMnSmFJKjKtN9KkYkP7TkN7</property>
+    <property name="acs-api-key-production" type="string">rIITDXb6E8I7veMs1T6au9AsgEg4FTlB</property>
+    <property name="acs-oauth-secret-development" type="string">x2fvEolGQly1uo5xZ8notqKb5UAqP9gb</property>
+    <property name="acs-oauth-key-development" type="string">pYTf8WunZwqQ3OMh6jvchvzlq1Bezus4</property>
+    <property name="acs-api-key-development" type="string">IlKOliWaF03aSAi00h7OdgNEFfGD3OVQ</property>
+    <deployment-targets>
+        <target device="mobileweb">false</target>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="android">false</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.3.GA</sdk-version>
+    <id>uk.co.stepupsoftware.audiotest</id>
+    <name>audiotest</name>
+    <version>1.0</version>
+    <publisher>paulryanwork</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2012 by paulryanwork</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>aaeda8ad-5736-44d5-bcc7-dbe12f16d135</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules/>
+</ti:app>
